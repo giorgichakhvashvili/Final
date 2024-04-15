@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%; 
+    overflow-x: hidden; 
+}
+.header-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 41px;
+    padding: 10px 0px 10px 531.5px;
+    border-radius: 6px;
+    background: rgba(255, 149, 0, 1);
+    margin: 20px 20px 0px 20px;
+}
+.header {
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 1);
+}
+.header-icon-container {
+    max-width: 20px;
+    height: 20px;
+    margin-left: 23px;
+}
+.header-icon {
+    max-width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* Nav Container */
+ 
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px 0px 20px;
+}
+.nav-list {
+    display: flex;
+    margin: 16px 0px 20px 60px;
+}
+.nav-icon {
+    width: 44px;
+    height: 44px;
+    padding: 5.7px;
+    border-radius: 8px;
+    background: rgba(255, 149, 0, 1);
+}
+.nav-ulist {
+    display: flex;
+    gap: 26px;
+    font-family: Be Vietnam Pro;
+    list-style: none;
+    height: 45px;
+}
+.nav-home {
+    text-decoration: none;
+    display: flex;
+    padding: 12px 20px 12px 20px;
+    border-radius: 6px;
+    background: rgba(241, 241, 243, 1);
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: rgba(38, 38, 38, 1);
+    margin-left: 50px;
+}
+.nav-link {
+    text-decoration: none;
+    display: flex;
+    padding-top: 12px;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: rgba(38, 38, 38, 1);
+}
+.button-container {
+    display: flex;
+    gap: 30px;
+    margin: 16px 60px 20px 0px;
+}
+.first-button {
+    max-width: 53px;
+    height: 21px;
+    padding-top: 12px;
+    border-style: none;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 1);
+}
+.second-button { 
+    max-width: 86px;
+    height: 45px;
+    padding: 12px 24px 12px 24px;
+    gap: 8px;
+    border-radius: 6px;
+    border-style: none;
+    background: rgba(255, 149, 0, 1);
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
