@@ -80,22 +80,26 @@
     <section class="logo-section">
       <div class="logo-container">
         <div class="logo-border">
-          <img src="images/zapier.svg" alt="zapier" />
+          <img src="images/zapier.svg" class="zapier" alt="zapier" />
         </div>
         <div class="logo-border">
-          <img src="images/spotify.svg" alt="spotify" />
-        </div>
-        <div class="logo-border"><img src="images/zoom.svg" alt="zoom" /></div>
-        <div class="logo-border">
-          <img src="images/amazon.svg" alt="amazon" />
+          <img src="images/spotify.svg" class="spotify" alt="spotify" />
         </div>
         <div class="logo-border">
-          <img src="images/adobe.svg" alt="adobe" />
+          <img src="images/zoom.svg" class="zoom" alt="zoom" />
         </div>
-        <div class="logo-border">
-          <img src="images/notion.svg" alt="notion" />
+        <div class="logo-border-hidden">
+          <img src="images/amazon.svg" class="hidden" alt="amazon" />
         </div>
-        <img src="images/netflix.svg" alt="netflix" />
+        <div class="logo-border-hidden">
+          <img src="images/adobe.svg" class="hidden" alt="adobe" />
+        </div>
+        <div class="logo-border-hidden">
+          <img src="images/notion.svg" class="hidden" alt="notion" />
+        </div>
+        <div class="logo-border-netflix">
+          <img src="images/netflix.svg" class="hidden" alt="netflix" />
+        </div>
       </div>
     </section>
 
@@ -130,7 +134,7 @@
 
     <section>
       <div class="benefits-card-container-first">
-        <div class="benefits-cards">
+        <div class="benefits-cards-first">
           <h1 class="benefits-cards-h1">01</h1>
           <h4 class="benefits-cards-h4">Flexible Learning Schedule</h4>
           <p class="benefits-cards-paragraph">
@@ -196,7 +200,7 @@
 
         <!-- 05 -->
 
-        <div class="benefits-cards">
+        <div class="benefits-cards-hidden">
           <h1 class="benefits-cards-h1">05</h1>
           <h4 class="benefits-cards-h4">Practical Projects Assignments</h4>
           <p class="benefits-cards-paragraph">
@@ -212,7 +216,7 @@
 
         <!-- 06 -->
 
-        <div class="benefits-cards">
+        <div class="benefits-cards-hidden">
           <h1 class="benefits-cards-h1">06</h1>
           <h4 class="benefits-cards-h4">Interactive Learning Environment</h4>
           <p class="benefits-cards-paragraph">
@@ -249,7 +253,11 @@
     <section class="our-courses-cards">
       <div class="our-courses-card-first">
         <div>
-          <img src="images/our-courses-photo-one.png" alt="our-courses" />
+          <img
+            src="images/our-courses-photo-one.png"
+            class="photos"
+            alt="our-courses"
+          />
           <div class="our-courses-span-container">
             <div>
               <span class="our-courses-weeks-span">4 Weeks</span>
@@ -273,7 +281,11 @@
 
       <div class="our-courses-card-second">
         <div>
-          <img src="images/our-courses-photo-two.png" alt="our-courses" />
+          <img
+            src="images/our-courses-photo-two.png"
+            class="photos"
+            alt="our-courses"
+          />
           <div class="our-courses-span-container">
             <div>
               <span class="our-courses-weeks-span">6 Weeks</span>
@@ -301,7 +313,11 @@
     <section class="our-courses-cards">
       <div class="our-courses-card-first">
         <div>
-          <img src="images/our-courses-photo-three.png" alt="our-courses" />
+          <img
+            src="images/our-courses-photo-three.png"
+            class="photos"
+            alt="our-courses"
+          />
           <div class="our-courses-span-container">
             <div>
               <span class="our-courses-weeks-span">8 Weeks</span>
@@ -325,7 +341,11 @@
 
       <div class="our-courses-card-second">
         <div>
-          <img src="images/our-courses-photo-four.png" alt="our-courses" />
+          <img
+            src="images/our-courses-photo-four.png"
+            class="photos"
+            alt="our-courses"
+          />
           <div class="our-courses-span-container">
             <div>
               <span class="our-courses-weeks-span">10 Weeks</span>
@@ -353,7 +373,11 @@
     <section class="our-courses-cards">
       <div class="our-courses-card-first">
         <div>
-          <img src="images/our-courses-photo-five.png" alt="our-courses" />
+          <img
+            src="images/our-courses-photo-five.png"
+            class="photos"
+            alt="our-courses"
+          />
           <div class="our-courses-span-container">
             <div>
               <span class="our-courses-weeks-span">10 Weeks</span>
@@ -379,7 +403,11 @@
 
       <div class="our-courses-card-second">
         <div>
-          <img src="images/our-courses-photo-six.png" alt="our-courses" />
+          <img
+            src="images/our-courses-photo-six.png"
+            class="photos"
+            alt="our-courses"
+          />
           <div class="our-courses-span-container">
             <div>
               <span class="our-courses-weeks-span">6 Weeks</span>
@@ -502,7 +530,7 @@
 
     <!-- Pricing Section -->
 
-    <section class="benefits-section">
+    <section class="benefits-section-pricing">
       <div class="benefits-heading">
         <h1 class="benefits-h1">Our Pricing</h1>
         <p class="pricing-paragraph">
@@ -873,5 +901,7 @@
   </body>
 </html>
 
-<!-- ფუტერის ლაინი ვერ გამომივიდა სხვანაირად, ბევრი შეცდომა მაქვს რომელსაც მეც ვხვდები ეხლა მაგრამ დატოვე რაღაცა გამოცდილება ამ პროექტმა)). 
-ბევრ რამეს შევცვლიდი და უფრო მარტივად გავაკეთებდი დრო რომ იყოს :d მგონია რომ ასე თუ ისე ლეპტოპ ვერსია შედგა.  -->
+<!-- როგორც იქნა დავაფინიშე ეს პროექტი, ბევრი რამე გამოვცადე და ბევრი რამე ვისწავლე პრაქტიკიდან, დარწმუნებული ვარ ბევრი შეცდომა მაქვს ძალიან ბევრს
+თვითონ წავაწყდი, ბევრი დივი ზედმეტი მაქვს ბევრი კოდიც ცსს-ში მაგრამ ხელახლა რომ ამაწყობინა ბევრ რაღაცას შევცვლიდი. რესპონსივი ცოტა გამიჭირდა,
+მაგრამ ჰტმლი ძალიან მარტიავად ავაწყე არ მიწვალია, ისე ავაწყვე თითქოს გამოცდილება მქონდაო)) რესპოინსივში გავაქრე ერთი სექცია ისიც თავიდან დროში რომ
+ვიწვებოდი მაგრამ მივხვდი როგორც უნდა გამეკეთებინა უბრალოდ აღარ დავუბრუნდი მერჩივნა მალე მოვრჩენილიყავი. მგონი მთლიანობაში შედგა ჩემი ფინალური პროექტი. -->
